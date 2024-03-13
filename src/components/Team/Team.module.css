@@ -1,0 +1,36 @@
+.team {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 60px);
+  padding: 20px;
+  background-color: rgb(138, 105, 255);
+}
+
+.pokeballImg {
+  width: 20px;
+  height: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 7px 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.headerText {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 15px;
+  line-height: 20px;
+  padding: 2px 30px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+.teamTileContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
