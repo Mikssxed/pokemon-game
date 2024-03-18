@@ -62,11 +62,3 @@
 .searchPoke::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
-
-.openTeam {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  text-orientation: mixed;
-  writing-mode: vertical-rl;
-}

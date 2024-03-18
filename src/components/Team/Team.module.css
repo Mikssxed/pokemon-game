@@ -34,3 +34,10 @@
   flex-direction: column;
   row-gap: 5px;
 }
+.openTeam {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+}
