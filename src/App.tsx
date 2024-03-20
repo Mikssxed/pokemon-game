@@ -1,5 +1,4 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import "./App.css";
 import Battle from "./pages/Battle/Battle";
 import CreateAttacks from "./pages/CreateAttacks/CreateAttacks";
 import CreateTeam from "./pages/CreateTeam/CreateTeam";
