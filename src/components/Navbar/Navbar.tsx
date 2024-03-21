@@ -1,25 +1,10 @@
-import { NavLink } from "react-router-dom";
-import classes from "./Navbar.module.css";
+import NavItem from "./NavItem";
 
 function Navbar() {
   return (
-    <div className={classes.container}>
-      <NavLink
-        className={({ isActive }) =>
-          !isActive ? classes.link : `${classes.link} ${classes.active}`
-        }
-        to="/CreateTeam"
-      >
-        Create Team
-      </NavLink>
-      <NavLink
-        className={({ isActive }) =>
-          !isActive ? classes.link : `${classes.link} ${classes.active}`
-        }
-        to="/Attacks"
-      >
-        Create Attacks
-      </NavLink>
+    <div className=" fixed flex px-5 bg-purple-900 w-full h-[60px] justify-between items-center rounded-b-2xl">
+      <NavItem to="CreateTeam">Create Team</NavItem>
+      <NavItem to="Attacks">Create Attacks</NavItem>
     </div>
   );
 }

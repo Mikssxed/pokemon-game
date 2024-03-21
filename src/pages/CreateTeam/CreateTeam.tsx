@@ -1,5 +1,4 @@
 import { ChangeEvent, useEffect, useState } from "react";
-import Team from "../../components/Team/Team";
 import { usePokemonList } from "../../hooks/usePokemonList";
 import { usePokemonStore } from "../../store/pokemonStore";
 import classes from "./CreateTeam.module.css";
@@ -63,7 +62,7 @@ function CreateTeam() {
         value={searchPokemon}
       />
       <ul className={classes.container}>{pokemonListItems}</ul>
-      <Team toggleTeam={toggleTeam} open={showParty} />
+      {/* <Team toggleTeam={toggleTeam} open={showParty} /> */}
     </div>
   );
 }

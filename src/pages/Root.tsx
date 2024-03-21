@@ -5,7 +5,7 @@ function Root() {
   return (
     <>
       <Navbar />
-      <main className="p-5">
+      <main className=" h-full p-4 overflow-hidden pt-[70px]">
         <Outlet />
       </main>
     </>
