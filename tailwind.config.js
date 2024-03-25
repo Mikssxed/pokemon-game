@@ -11,6 +11,7 @@ export default {
         900: "rgb(39, 30, 101)",
       },
       gold: {
+        700: "#daa520",
         600: "#ffd700",
       },
       grey: {
